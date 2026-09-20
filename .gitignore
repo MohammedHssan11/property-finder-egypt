@@ -16,7 +16,6 @@ artifacts/session2_modeling_data.csv
 Session_2_Project/
 
 # Large model binaries (>45MB)
-models/property_price_model_bundle.joblib
 models/property_price_random_forest_pipeline.joblib
 
 # Documentation and binary PDFs
