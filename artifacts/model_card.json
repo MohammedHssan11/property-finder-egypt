@@ -1,0 +1,41 @@
+{
+  "model_name": "RandomForestRegressor",
+  "model_version": "session2-random-forest-v2",
+  "training_rows": 62494,
+  "target": "asking price in EGP",
+  "target_transform": "log1p",
+  "segments": [
+    "buy",
+    "commercial_buy",
+    "commercial_rent",
+    "rent"
+  ],
+  "features": [
+    "bedrooms",
+    "bathrooms",
+    "size",
+    "latitude",
+    "longitude",
+    "amenities_count",
+    "images_count",
+    "total_rooms",
+    "log_size",
+    "bedroom_missing",
+    "bathroom_missing",
+    "coordinate_missing",
+    "category",
+    "price_period",
+    "property_type",
+    "market_region",
+    "market_city",
+    "local_area",
+    "location"
+  ],
+  "important_limitations": [
+    "Asking prices are not completed transaction prices.",
+    "Monthly rent and sale prices are different targets.",
+    "Location levels are marketplace labels, not official boundaries.",
+    "The app range is not a confidence interval.",
+    "Important property details are still missing."
+  ]
+}

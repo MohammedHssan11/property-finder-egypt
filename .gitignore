@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and checkpoints
+.pytest_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Raw scraped and processed large datasets (>10MB)
+DATA/raw/
+DATA/processed/
+artifacts/session2_modeling_data.csv
+Session_2_Project/
+
+# Large model binaries (>45MB)
+models/property_price_model_bundle.joblib
+models/property_price_random_forest_pipeline.joblib
+
+# Documentation and binary PDFs
+*.pdf
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
